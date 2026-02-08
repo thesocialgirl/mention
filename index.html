@@ -1,1 +1,72 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Small Website</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #74ebd5, #9face6);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background: #222;
+    color: white;
+    padding: 20px;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+
+  button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background: #ff5e57;
+    color: white;
+  }
+
+  footer {
+    background: #222;
+    color: #aaa;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Welcome to My Website 🌐</h1>
+  <p>Small website in one HTML file</p>
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>This website is made using only one HTML file.</p>
+  <button onclick="sayHello()">Click Me</button>
+</section>
+
+<footer>
+  © 2026 My Website
+</footer>
+
+<script>
+  function sayHello() {
+    alert("Hello! Thanks for visiting 😊");
+  }
+</script>
+
+</body>
+</html>
